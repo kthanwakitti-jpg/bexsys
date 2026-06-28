@@ -96,7 +96,7 @@ export default function IndustriesPage() {
                 >
                   <div
                     className="w-14 h-14 rounded-2xl flex items-center justify-center text-white mb-4 transition-transform group-hover:scale-105 duration-300"
-                    style={{ background: `linear-gradient(135deg, ${ind.color}, ${ind.color}99)` }}
+                    style={{ background: `linear-gradient(135deg, #6DB33F, #6DB33F99)` }}
                   >
                     {ICON_MAP[ind.icon]}
                   </div>
@@ -133,7 +133,7 @@ export default function IndustriesPage() {
                   <div className="flex items-center gap-3 mb-5">
                     <div
                       className="w-11 h-11 rounded-xl flex items-center justify-center text-white"
-                      style={{ background: `linear-gradient(135deg, ${ind.color}, ${ind.color}99)` }}
+                      style={{ background: `linear-gradient(135deg, #6DB33F, #6DB33F99)` }}
                     >
                       {ICON_MAP[ind.icon]}
                     </div>
